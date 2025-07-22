@@ -1,5 +1,13 @@
 .main-header {
     background: var(--clr-primary-base);
     min-height: 132px;
-    margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: inherit;
+}
+
+.main-header .inner-container {
+    grid-column: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

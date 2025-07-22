@@ -13,3 +13,7 @@
 @import url('./components/card.css');
 @import url('./components/logo.css');
 @import url('./components/main-nav.css');
+@import url('./components/footer.css');
+@import url('./components/pages.css');
+
+@import url('./setup/mq.css');

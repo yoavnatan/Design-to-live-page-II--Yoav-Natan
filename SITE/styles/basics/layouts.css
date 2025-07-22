@@ -15,14 +15,14 @@
 
 /* Card Layout */
 
-.card-layout {
+/* this is not layout! */
+.cards-layout {
     display: grid;
     gap: 80px;
-}
+    padding-top: 30px;
+    padding-bottom: 80px;
 
-.card {
-    display: flex;
-    gap: 43px;
+    border: 0.5px solid rgba(225.00045776367188, 223.99658203125, 223.99658203125, 1);
 }
 
 .card-content {

@@ -4,10 +4,18 @@
     justify-content: center;
     width: 135px;
     height: 133px;
+}
 
-    filter: drop-shadow(-1px 0px 0px rgba(29.000000171363354, 29.000000171363354, 29.000000171363354, 1));
+.main-nav li:hover a {
+    color: var(--clr-secondary--1)
+}
+
+.main-nav li a:focus {
+    color: var(--clr-secondary--1)
+}
+
+.main-nav li:hover {
     box-shadow: inset 0px -6px 0px rgba(87.9986572265625, 201.00082397460938, 57.999114990234375, 1);
-    /* Warning: CSS does not support Inner Shadow.*/
 }
 
 .main-nav .main-nav-list a {
