@@ -1,0 +1,17 @@
+.main-nav li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 135px;
+    height: 133px;
+
+    filter: drop-shadow(-1px 0px 0px rgba(29.000000171363354, 29.000000171363354, 29.000000171363354, 1));
+    box-shadow: inset 0px -6px 0px rgba(87.9986572265625, 201.00082397460938, 57.999114990234375, 1);
+    /* Warning: CSS does not support Inner Shadow.*/
+}
+
+.main-nav .main-nav-list a {
+
+    text-decoration: none;
+    text-transform: uppercase;
+}

@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    color: var(--clr-primary--1);
+    font-family: lato-bold, sans-serif;
+    line-height: 1.25;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: var(--clr-primary--3)
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+button {
+    min-width: 186px;
+    min-height: 40px;
+    border-radius: 20px;
+}
