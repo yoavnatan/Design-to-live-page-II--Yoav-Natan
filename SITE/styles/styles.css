@@ -15,5 +15,6 @@
 @import url('./components/main-nav.css');
 @import url('./components/footer.css');
 @import url('./components/pages.css');
+@import url('./components/main-screen.css');
 
 @import url('./setup/mq.css');

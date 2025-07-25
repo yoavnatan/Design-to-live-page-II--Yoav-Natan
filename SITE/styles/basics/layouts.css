@@ -15,7 +15,6 @@
 
 /* Card Layout */
 
-/* this is not layout! */
 .cards-layout {
     display: grid;
     gap: 80px;

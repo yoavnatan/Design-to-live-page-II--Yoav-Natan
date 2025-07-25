@@ -3,6 +3,7 @@
     min-height: 132px;
     display: grid;
     grid-template-columns: inherit;
+    z-index: 1;
 }
 
 .main-header .inner-container {

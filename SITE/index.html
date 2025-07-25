@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blogin</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="./styles/styles.css">
 </head>
 
 <body class="main-layout">
+
+    <div class="main-screen" onclick="toggleMenu()"></div>
 
     <header class="main-header full">
         <div class="inner-container flex">
@@ -21,6 +23,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
+            <button class="btn-toggle-menu" type="button" onclick="toggleMenu()">☰</button>
         </div>
     </header>
 
@@ -77,8 +80,8 @@
         </div>
     </main>
     <section class="page-container flex space-between">
-        <h3>←Previous</h3>
-        <h3>Next→</h3>
+        <h3>← Previous</h3>
+        <h3>Next →</h3>
     </section>
 
     <footer class="main-footer full">
@@ -95,6 +98,12 @@
         </ul>
     </footer>
 
+    <script>
+        function toggleMenu() {
+            document.body.classList.toggle('menu-open');
+            document.querySelector('.btn-toggle-menu').innerText = (document.querySelector('.btn-toggle-menu').innerText === '☰') ? 'X' : '☰'
+        }
+    </script>
 </body>
 
 </html>

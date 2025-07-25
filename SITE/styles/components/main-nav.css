@@ -23,3 +23,8 @@
     text-decoration: none;
     text-transform: uppercase;
 }
+
+.btn-toggle-menu {
+    width: 50px;
+    font-size: 32px;
+}
