@@ -6,11 +6,11 @@
     height: 133px;
 }
 
-.main-nav li:hover a {
+.main-nav li:hover>a {
     color: var(--clr-secondary--1)
 }
 
-.main-nav li a:focus {
+.main-nav li>a:focus {
     color: var(--clr-secondary--1)
 }
 
@@ -27,4 +27,8 @@
 .btn-toggle-menu {
     width: 50px;
     font-size: 32px;
+}
+
+.main-nav li:nth-child(1) {
+    position: relative;
 }

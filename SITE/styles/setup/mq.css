@@ -44,11 +44,28 @@
 
     }
 
+    .dropdown-menu {
+        /* display: auto; */
+        position: absolute;
+        right: 100%;
+        width: 200px;
+        top: 0%;
+        background-color: var(--clr-primary-base);
+        color: var(--clr-primary--3);
+        opacity: 0;
+        transform: translateX(-200%);
+
+    }
+
+    .journal.journal-open .dropdown-menu {
+        opacity: 1;
+        transform: translateY(0);
+
+    }
+
 }
 
-/* SMALL 600px */
 
-@media (min-width: 947px) {}
 
 /* MEDIUM  */
 
@@ -94,6 +111,23 @@
 
     .details-modal h1 {
         margin-bottom: 0px;
+
+    }
+
+    .dropdown-menu {
+        /* display: auto; */
+        position: absolute;
+        top: 120px;
+        background-color: var(--clr-primary-base);
+        color: var(--clr-primary--3);
+        opacity: 0;
+        transform: translateY(-100%);
+
+    }
+
+    .journal:hover .dropdown-menu {
+        opacity: 1;
+        transform: translateY(0);
 
     }
 

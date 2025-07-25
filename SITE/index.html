@@ -17,7 +17,16 @@
             <div class="logo">Blogin<span>.</span></div>
             <nav class="main-nav">
                 <ul class="main-nav-list clean-list flex">
-                    <li><a href="#">Journal</a></li>
+                    <li class="journal" onclick="onClickJournal()"><a href="#">Journal</a>
+                        <div class="dropdown-menu">
+                            <ul class="dropdown-list clean-list flex">
+                                <li><a href="">Obtober 2016</a></li>
+                                <li><a href="">Junuary 2017</a></li>
+                                <li><a href="">April 2017</a></li>
+                                <li><a href="">July 2017</a></li>
+                            </ul>
+                        </div>
+                    </li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Work</a></li>
                     <li><a href="#">Contact</a></li>
@@ -26,13 +35,7 @@
             <button class="btn-toggle-menu" type="button" onclick="toggleMenu()">☰</button>
         </div>
 
-        <div class="dropdown-menu">
-            <ul class="dropdown-list clean-list flex"></ul>
-            <li><a href=""></a>Obtober 2016</li>
-            <li><a href=""></a>Junuary 2017</li>
-            <li><a href=""></a>April 2017</li>
-            <li><a href=""></a>July 2017</li>
-        </div>
+
     </header>
 
     <main class="main-content cards-layout">
@@ -120,10 +123,15 @@
         function toggleMenu() {
             document.body.classList.toggle('menu-open');
             document.querySelector('.btn-toggle-menu').innerText = (document.querySelector('.btn-toggle-menu').innerText === '☰') ? 'X' : '☰'
+            document.querySelector('.journal').classList.remove('journal-open')
         }
 
         function onClickRead() {
             document.querySelector('.details-modal').showModal()
+        }
+
+        function onClickJournal() {
+            document.querySelector('.journal').classList.toggle('journal-open')
         }
     </script>
 </body>
