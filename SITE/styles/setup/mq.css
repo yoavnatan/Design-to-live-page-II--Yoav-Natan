@@ -38,6 +38,12 @@
         width: 100%;
     }
 
+    .details-modal {
+        width: 100dvh;
+        height: 100dvh;
+
+    }
+
 }
 
 /* SMALL 600px */
@@ -73,6 +79,22 @@
 
     .btn-toggle-menu {
         display: none;
+    }
+
+    .details-modal {
+        width: 50dvh;
+        height: 50dvh;
+        place-content: center;
+
+    }
+
+    .details-modal form {
+        gap: 10px;
+    }
+
+    .details-modal h1 {
+        margin-bottom: 0px;
+
     }
 
 }
