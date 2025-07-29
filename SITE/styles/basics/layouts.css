@@ -28,3 +28,10 @@
     display: flex;
     flex-direction: column;
 }
+
+/* CARDS-CONTENT with GRID: */
+
+/* .card-content {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+} */

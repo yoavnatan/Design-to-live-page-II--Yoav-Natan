@@ -1,10 +1,13 @@
 .main-header {
     background: var(--clr-primary-base);
-    min-height: 132px;
     display: grid;
     grid-template-columns: inherit;
     z-index: 1;
+    font-family: lato-bold;
+    box-shadow: inset 0px -6px 0px 0px black;
 }
+
+
 
 .main-header .inner-container {
     grid-column: 2;

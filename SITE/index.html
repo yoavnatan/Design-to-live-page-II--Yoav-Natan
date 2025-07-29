@@ -17,7 +17,7 @@
             <div class="logo">Blogin<span>.</span></div>
             <nav class="main-nav">
                 <ul class="main-nav-list clean-list flex">
-                    <li class="journal" onclick="onClickJournal()"><a href="#">Journal</a>
+                    <li class="journal" onclick="onClickJournal()"><a class="active" href="#">Journal</a>
                         <div class="dropdown-menu">
                             <ul class="dropdown-list clean-list flex">
                                 <li><a href="">Obtober 2016</a></li>
@@ -32,7 +32,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </nav>
-            <button class="btn-toggle-menu" type="button" onclick="toggleMenu()">☰</button>
+            <button class="btn-toggle-menu " type="button" onclick="toggleMenu()">☰</button>
         </div>
 
 
@@ -46,13 +46,18 @@
                 <h2 class="card-title">Duis aute irure dolor in
                     henderit in voluptate.
                 </h2>
-                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex
-                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur...
-                </p>
-                <button class="cta" onclick="onClickRead()">Continue Reading</button>
+                <div class="card-text-container">
+                    <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                    </p>
+                    <p class="card-text"> ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur...
+                    </p>
+                </div>
+                <button class="cta card-btn btn rounded arrow" onclick="onClickRead()">Continue Reading</button>
             </div>
         </div>
 
@@ -62,13 +67,18 @@
                 <h2 class="card-title">Duis aute irure dolor in
                     henderit in voluptate.
                 </h2>
-                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex
-                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur...
-                </p>
-                <button class="cta">Continue Reading</button>
+                <div class="card-text-container">
+                    <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                    </p>
+                    <p class="card-text"> ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur...
+                    </p>
+                </div>
+                <button class="cta card-btn btn rounded arrow" onclick="onClickRead()">Continue Reading</button>
             </div>
         </div>
 
@@ -79,20 +89,25 @@
                 <h2 class="card-title">Duis aute irure dolor in
                     henderit in voluptate.
                 </h2>
-                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex
-                    ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur...
-                </p>
-                <button class="cta">Continue Reading</button>
+                <div class="card-text-container">
+                    <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                    </p>
+                    <p class="card-text"> ea commo doconsequat, sunt in culpa qui officia deserunt mollit anim id est
+                        laborum.
+                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur...
+                    </p>
+                </div>
+                <button class="cta card-btn btn rounded arrow" onclick="onClickRead()">Continue Reading</button>
             </div>
 
         </div>
     </main>
     <section class="page-container flex space-between">
-        <h3>← Previous</h3>
-        <h3>Next →</h3>
+        <h3 class="prev-btn">Previous</h3>
+        <h3 class="next-btn">Next</h3>
     </section>
 
     <footer class="main-footer full">
@@ -101,10 +116,11 @@
             <small class="footer-rights">© Bligin.com - All Rights Reserved - Find more free Templates at <a
                     href="#">Pixelhint.com</a></small>
             <ul class="footer-social clean-list flex ">
-                <li><img src="img/F.png" alt=""></li>
-                <li><img src="img/L.png" alt=""></li>
-                <li><img src="img/be.png" alt=""></li>
-                <li><img src="img/basket.png" alt=""></li>
+                <li><a href="#" class="fa facebook"></a></li>
+                <li><a href="#" class="fa twitter"></a></li>
+                <li><a href="#" class="fa behance"></a></li>
+                <li><a href="#" class="fa dribble"></a></li>
+
         </div>
         </ul>
     </footer>

@@ -14,3 +14,30 @@
     font-family: lato-regular;
     src: url('/SITE/fonts/lato/Lato-Regular.ttf');
 }
+
+/* Font Awesome */
+
+@font-face {
+    font-family: fa;
+    src: url('/SITE/fonts/fa/fa-brands-400.woff2');
+}
+
+.fa::before {
+    font-family: fa;
+}
+
+.fa.facebook::before {
+    content: "\f39e";
+}
+
+.fa.twitter::before {
+    content: "\f099";
+}
+
+.fa.behance::before {
+    content: "\f1b4";
+}
+
+.fa.dribble::before {
+    content: "\f17d";
+}

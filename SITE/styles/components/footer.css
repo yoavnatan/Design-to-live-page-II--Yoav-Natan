@@ -2,6 +2,8 @@ footer {
     background-color: rgba(248.0000004172325, 248.0000004172325, 248.0000004172325, 1);
     height: 315px;
     color: rgba(165.9999, 165.9999, 165.9999, 1);
+    font-family: lato-bold;
+
 
 }
 
@@ -19,7 +21,7 @@ footer a {
     color: var(--clr-primary--2)
 }
 
-footer li {
+footer li a {
     display: flex;
     width: 40px;
     height: 40px;
@@ -27,10 +29,10 @@ footer li {
     place-items: center;
     justify-content: center;
     cursor: pointer;
-
+    color: var(--clr-primary--3)
 }
 
-footer li:hover {
+footer li a:hover {
     background-color: #516FAD;
 }
 
